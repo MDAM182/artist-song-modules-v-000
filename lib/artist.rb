@@ -1,7 +1,8 @@
 require 'pry'
-extend concerns::ClassMethods
+
 
 class Artist
+  extend concerns::ClassMethods
   attr_accessor :name
   attr_reader :songs
 
