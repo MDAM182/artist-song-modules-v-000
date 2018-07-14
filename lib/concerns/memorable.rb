@@ -1,6 +1,6 @@
 module Memorable
 class Count
-    self.all.count
+    all.count
   end
 
   class ResetAll
