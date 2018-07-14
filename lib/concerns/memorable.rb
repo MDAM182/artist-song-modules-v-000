@@ -6,4 +6,10 @@ class Count
   class ResetAll
     @@songs.clear
   end
+
+  class All
+    @@artists
+    @@songs
+  end
+
 end
