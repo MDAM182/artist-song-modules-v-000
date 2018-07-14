@@ -5,6 +5,7 @@ require_relative './concerns/memorable'
 class Artist
   extend Memorable::ResetAll
   extend Memorable::Count
+  extend Memorable::All
   attr_accessor :name
   attr_reader :songs
 
@@ -19,9 +20,9 @@ class Artist
     @songs = []
   end
 
-  def self.all
-    @@artists
-  end
+  # def self.all
+  #   @@artists
+  # end
 
   # def self.reset_all
   #   self.all.clear
