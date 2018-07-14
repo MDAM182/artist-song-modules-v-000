@@ -1,4 +1,5 @@
 require 'pry'
+extend concerns::ClassMethods
 
 class Artist
   attr_accessor :name
