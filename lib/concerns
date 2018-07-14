@@ -1,3 +1,4 @@
+class concerns
 module Memorable
   def self.count
     self.all.count
