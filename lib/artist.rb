@@ -6,8 +6,8 @@ require_relative './concerns/paramable'
 
 class Artist
   extend Memorable::All
+  extend Findable::All
   extend Memorable::All
-    extend Memorable::All
   attr_accessor :name
   attr_reader :songs
 
