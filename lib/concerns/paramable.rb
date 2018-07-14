@@ -1,5 +1,5 @@
 module Paramable
-class All
+module  All
   def to_param
     name.downcase.gsub(' ', '-')
   end
