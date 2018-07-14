@@ -2,8 +2,8 @@ require 'pry'
 require_relative './concerns/memorable'
 
 class Song
-  extend Memorable::reset_all
-  extend Memorable::count
+  extend Memorable::ResetAll
+  extend Memorable::Count
   attr_accessor :name
   attr_reader :artist
 
