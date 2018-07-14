@@ -8,7 +8,7 @@ class Song
 
   extend Memorable::All
   include Findable::All
-  extend Paramable::All
+  include Paramable::All
   attr_accessor :name
   attr_reader :artist
 
