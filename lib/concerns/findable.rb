@@ -1,4 +1,5 @@
 module Findable
-  class All 
+  class All
     def find_by_name
+    end
 end
