@@ -6,7 +6,7 @@ require_relative './concerns/paramable'
 
 class Song
   extend Memorable::All
-  include Findable::All
+  extend Findable::All
   include Paramable::All
   attr_accessor :name
   attr_reader :artist
