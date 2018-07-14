@@ -1,4 +1,3 @@
-
 module Memorable
   def count
     all.count
