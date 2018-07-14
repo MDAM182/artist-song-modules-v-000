@@ -4,6 +4,8 @@ require_relative './concerns/memorable'
 class Song
 
   extend Memorable::All
+  extend Findable::All
+  extend Paramable::All
   attr_accessor :name
   attr_reader :artist
 
@@ -24,7 +26,7 @@ class Song
   # def self.reset_all
   #   @@songs.clear
   # end
-  # 
+  #
   # def to_param
   #   name.downcase.gsub(' ', '-')
   # end
