@@ -7,9 +7,9 @@ class Count
     @@songs.clear
   end
 
-  class All
-    @@artists
-    @@songs
-  end
+  # class All
+  #   @@artists
+  #   @@songs
+  # end
 
 end
