@@ -3,9 +3,7 @@ require_relative './concerns/memorable'
 
 
 class Artist
-  extend Memorable::ResetAll
-  extend Memorable::Count
-  extend Memorable::All
+  extend Memorable::ClassMethods
   attr_accessor :name
   attr_reader :songs
 
