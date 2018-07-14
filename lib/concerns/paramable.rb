@@ -4,3 +4,4 @@ class All
     name.downcase.gsub(' ', '-')
   end
 end
+end
