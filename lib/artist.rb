@@ -3,7 +3,8 @@ require_relative './memorable.rb'
 
 
 class Artist
-  extend Concerns::Memorable
+  extend Memorable::reset_all
+  extend Memorable::count
   attr_accessor :name
   attr_reader :songs
 
