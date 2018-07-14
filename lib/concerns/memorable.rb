@@ -1,9 +1,9 @@
 module Memorable
-class count
+class Count
     self.all.count
   end
 
-  class reset_all
+  class ResetAll
     @@songs.clear
   end
 end
