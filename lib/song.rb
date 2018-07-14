@@ -5,7 +5,6 @@ require_relative './concerns/paramable'
 
 
 class Song
-
   extend Memorable::All
   include Findable::All
   include Paramable::All
