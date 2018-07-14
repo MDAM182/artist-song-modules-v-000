@@ -1,4 +1,4 @@
-module Memorable
+module memorable
   def count
     all.count
   end
