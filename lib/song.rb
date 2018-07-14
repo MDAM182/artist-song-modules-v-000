@@ -1,5 +1,5 @@
 require 'pry'
-require_relative './memorable.rb'
+require_relative './concerns/memorable'
 
 class Song
   extend Memorable::reset_all
